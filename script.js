@@ -9,7 +9,9 @@ btnE1.addEventListener('click',()=>{
 	var td1=document.createElement('td')
 	var td2=document.createElement('td')
 	var td3=document.createElement('td')
+	var td4=document.createElement('td')
 	var btn=document.createElement('button')
+	td4.append(btn);
 	btn.classList.add("delete")
 	btn.textContent = "Delete"
 	td1.textContent = titleE1.value
@@ -21,7 +23,7 @@ btnE1.addEventListener('click',()=>{
 	tr.appendChild(td1)
 	tr.appendChild(td2)
 	tr.appendChild(td3)
-	tr.appendChild(btn)
+	tr.appendChild(td4)
 	tbody.appendChild(tr)
 	
 	
