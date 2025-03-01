@@ -10,6 +10,7 @@ btnE1.addEventListener('click',()=>{
 	var td2=document.createElement('td')
 	var td3=document.createElement('td')
 	var btn=document.createElement('button')
+	btn.classList.add("delete")
 	td1.textContent = titleE1.value
     td2.textContent = authorE1.value
 	td3.textContent = ISBNE1.value
